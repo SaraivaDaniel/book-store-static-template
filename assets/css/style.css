@@ -1,0 +1,95 @@
+body {
+  padding-top: 1rem;
+}
+
+#logo {
+  background-color: #AAA;
+  padding: 1rem;
+}
+
+#logo > div.logo-text {
+  font-size: 20pt;
+}
+
+#logo a, #logo a:visited, #logo a:hover  {
+  color: #666;
+  text-decoration: none;
+}
+
+.nav > .nav-item > .nav-link {
+  color: #333;
+  font-weight: 600;
+}
+
+.nav {
+  background-color: #f3f3f3;
+}
+
+.product-card {
+  padding: 10px;
+  border: none;
+}
+
+.product-body {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+} 
+
+.product-body .card-body {
+  background-color: #e5ddd5;
+}
+
+.product-image {
+  width: 75%;
+}
+
+.product-price {
+  font-size: 2.0rem;
+}
+
+.product-rating {
+  font-size: 8pt;
+}
+
+footer {
+  background-color: #666;
+  color: white;
+  padding: 1rem;
+}
+
+footer .footer-copyright {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+footer .footer-navegacao nav {
+  margin-top: 1rem;
+}
+
+footer .footer-navegacao nav h5 {
+  text-align: center;
+  font-size: 12pt;  
+}
+
+footer .footer-navegacao ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer .footer-navegacao li {
+  font-size: 10pt;
+  list-style-type: none;
+  text-align: center;
+}
+
+footer .footer-navegacao li a,
+footer .footer-navegacao li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-navegacao li a:hover {
+  text-decoration: underline;
+}
